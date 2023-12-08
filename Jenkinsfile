@@ -30,12 +30,6 @@ pipeline {
       }
     }
 
-    stage('Download Dependencies') {
-         steps {
-        echo 'Download Dependencies'
-      }
-    }
-
     stage('Prepare Artifact') {
       steps {
         echo 'Prepare Artifact'
